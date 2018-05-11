@@ -37,7 +37,7 @@ api.login_user('name', 'password')
 stats = api.find_user('peter')
 ```
 Return values are in JSON:
-```python
+```json
 {
   "u": {
     "avatar_code": null, 
@@ -65,7 +65,8 @@ print 'Next show:', datetime.datetime.fromtimestamp(state['Meta']['NextShowDate'
 ```
 
 #### Credits
-Thanks to the blogger and commenters on [easysurfer.me](http://easysurfer.me/wordpress/?p=761) for their insights!
+- Thanks to [mtschirs](https://github.com/mtschirs/) for his [initial version](https://github.com/mtschirs/quizduellapi) of the project (licensed under GPLv3)
+- Thanks to the blogger and commenters on [easysurfer.me](http://easysurfer.me/wordpress/?p=761) for their insights!
 
 #### Disclaimer
 This python module was build relying exclusively on publicly available information of the Quizduell application and without making use of any systematic or automatic data collection, including data scraping, data mining, data extraction, data harvesting or data traffic sniffing.
